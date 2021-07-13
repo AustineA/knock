@@ -1,4 +1,5 @@
 require "knock/engine"
+require "active_support/core_ext/numeric/time"
 
 module Knock
   # How long before a token is expired. If nil is provided,
