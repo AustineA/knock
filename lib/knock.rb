@@ -5,7 +5,7 @@ module Knock
   # How long before a token is expired. If nil is provided,
   # token will last forever.
   mattr_accessor :token_lifetime
-  self.token_lifetime = nil
+  self.token_lifetime = 1.day
 
   # Configure the audience claim to identify the recipients that the token
   # is intended for.
